@@ -15,9 +15,9 @@
 // Hint: Don't forget to check for bad values like null/undefined
 function countSheeps(sheep) {
   // TODO
-  let count = 0:
+  let count = 0;
   for (shp of sheep){
-    if(shp = 'true' ){
+    if(shp === true ){
       count++;
     }
   }
