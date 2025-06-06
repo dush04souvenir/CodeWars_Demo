@@ -8,3 +8,7 @@ function boolToWord( bool ){
     return 'No';
   }
 }
+//best practice
+function boolToWord( bool ){
+  return bool ? 'Yes' : 'No';
+}
