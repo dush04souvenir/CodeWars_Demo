@@ -10,3 +10,9 @@ function solution(str, ending){
   return str.endsWith(ending);
 }
 console.log(solution('abc', 'bc')); // returns true
+
+
+//changing string to uppercase function
+function makeUpperCase(str) {
+  return str.toUpperCase();
+}
