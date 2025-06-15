@@ -16,3 +16,7 @@ function findAverage(array) {
 function findAverage(array) {
   return array.length ? array.reduce((a, b) => a + b) / array.length : 0;
 }
+//check if the array contain the value x
+function contains(array, x) {
+  return array.includes(x);
+}
